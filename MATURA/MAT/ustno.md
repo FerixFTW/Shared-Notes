@@ -53,7 +53,7 @@
 ## Pokaži da je vsota dveh lihih števil sodo število
 * $(2k+1) + (2k+1) = (4k+2) = 2(2k+1)$ -> $2|2(2k+1)$
 ## Pokaži da je kvadrat lihega števila liho število
-* $(2k+1)^2 = 4k^2 + 4k + 1 = 4(k^2 + k ) + \bold 1 $
+* $(2k+1)^2 = 4k^2 + 4k + 1 = 4(k^2 + k ) + 1 $
 
 ---
 # **7 Praštevila**
@@ -108,9 +108,9 @@
 ---
 # **11 Kriteriji deljivosti**
 ## Kriterij deljivosti za 2,4,8
-* 2) Enica deljiva s 2
-* 4) Zadnji dve cifri deljivi s 4
-* 8) Zadnje 3 cifre deljive s 8
+* 2 - Enica deljiva s 2
+* 4 - Zadnji dve cifri deljivi s 4
+* 8 - Zadnje 3 cifre deljive s 8
 ## Kriterij deljivosti za 3
 * Vsota cifer deljiva s 3
 ## Kriterij deljivosti za 6
@@ -139,10 +139,10 @@
 ## Kateri ulomki imajo končen decimalni zapis
 * Desetiški ulomki - v imenovalcu imajo zmnožek potenc števil 2 in 5
 ## Primer ulomka z končnim in primer z neskončnim zapisom
-* $\frac{1}{2} \frac{1}{4} \frac{1}{5}$ - končni zapis
-* $\frac{1}{3} \frac{2}{3} \frac{1}{7}$ - neskončni zapis
+* $\large \frac{1}{2} \frac{1}{4} \frac{1}{5}$ - končni zapis
+* $\large \frac{1}{3} \frac{2}{3} \frac{1}{7}$ - neskončni zapis
 ## Primer periodičnega decimalnega števila, zapiši kot ulomek
-* 0,33... => \frac{1}{3}
+* $0,33... => \frac{1}{3}$
 
 ---
 # **14 Realna števila**
@@ -167,7 +167,7 @@
 * $|a^{-1}| = |\frac{1}{a}| = |a|^{-1} $
 
 ---
-# **16 Kompleksna števila $\mathbb{C}$**
+# **16 Kompleksna števila C**
 ## Definicija množice kompleksnih števil, grafična upodobitev
 * Kompleksna števila so števila v obliki $z=a+bi$
 * $a$ in $b$ sta poljubni realni števili $i$ pa je imaginarna enota, kjer velja $i^2=-1$
@@ -175,7 +175,7 @@
 * Oznaka množice je $\mathbb{C}$
 
 + Grafična upodobitev je s točkami v kompleksni ravnini - vodoravna realna in navpična imaginarna os
-## Seštevanje v množici $\mathbb{C}$
+## Seštevanje v množici C$
 * $z_1=a+bi$
 * $z_2=c+di$
 * $z_1+z_2=(a+c)+(b+d)i$
@@ -188,14 +188,14 @@
 * Vsoti $z_1+z_2$ pripada vektor $\vec{r_1}+\vec{r_2}=(a+c,b+d)$
 ---
 # **17 Množenje kompleksnih števil**
-## Množenje v $\mathbb{C}$
+## Množenje v C
 * $z_1*z_2=(ac+bd)+(ad+bc)i$
-## Geometrijski pomen množenja v $\mathbb{C}$
+## Geometrijski pomen množenja v C
 * $(-1)$ - &nbsp; $z*(-1)=-z$ ; -z je nasprotna vrednost števila $z$. Točki sta simetrični glede na koordinatno izhodišče
-* $k€\N$ - &nbsp; $z*k$=ka+kbi ; Vektor $r_1$ se raztegne za faktor $k$
-* $(-k)$ - &nbsp; $z*(-k)=-ka-kbi$ ; Razteg vektorja $r_2$ v nasprotno smer za faktor $k$
+* $k€\N$ - &nbsp; $z * k=ka+kbi$ ; Vektor $r_1$ se raztegne za faktor $k$
+* $(-k)$ - &nbsp; $z * (-k) =-ka-kbi$ ; Razteg vektorja $r_2$ v nasprotno smer za faktor $k$
 ## Tri lastnosti množenja v $\mathbb{C}$
-* Komutativnost - &nbsp; $(z_1*z_2=z_2*z_1)$
+* Komutativnost - &nbsp; $(z_1 * z_2=z_2 * z_1)$
 * 1 je enota za množenje - &nbsp;  $1*z = z$
 * Produkt $z$ in obratne vrednost $z^{-1}$ je 1 - &nbsp; $z*z^{-1}=1$
 ## Izračunaj $i^n$ za prva štiri naravna števila $\N$
@@ -247,14 +247,15 @@
 ---
 # **21 Potence s celimi eksponenti**
 ## Potenca z naravnim in potenca z celim eksponentom
-* Narvni eksponent - $a^n$ je zmnožek n faktorjev števila a
+* Naravni eksponent - $a^n$ je zmnožek n faktorjev števila a
 * Celi eksponent - $a^{-1} = \frac{1}{a}$
 ## Tri pravila za računanje potenc s celimi eksponenti
 * $a^n*a^m = a^{n+m}$
 * $a^n*a^m = a^{-+m}$
 * $(a^n)^m = a^{n*m}$
 ## Dva primera računanja potenc z zgornjimi pravili
-* Po smislu
+* $5^{-2}*5^{3}=5^1=5$
+* $2^{-1} * 3^{-1}=(2 * 3)^{-1}=6^{-1}$
 
 ---
 # **23 Potence s racionalnimi eksponenti**
@@ -312,7 +313,7 @@
 * Zunanji kot je sokot notranjega kota
 ## Vsota notranjih kotov, dokaži
 * Vsota notranjih kotov je $180\degree$
-![notrjani_dokaz](/attach/notranji_dokaz.png)
+![notranji_dokaz](/attach/notranji_dokaz.png)
 ## Vsota zunanjih kotov
 * Vsota zunanjih kotov je $360\degree$
 
@@ -357,9 +358,9 @@
 * v dveh razmerjih istoležnih stranic
 ## Kolikšna sta obseg in ploščina podobnega trikotnika?
 * Razmerje obsegov je enako razmerju istoležnih stranic
-* a:a'=1:3 -> o:o'=1:3
+* $a:a'=1:3$ --> $o:o'=1:3$
 + Razmerje ploščin je enako kvadratu razmerja istoležnih stranic
-+ a:a'=1:3 -> S:S'=1:9
++ $a:a'=1:3$ --> $S:S'=1:9$
 
 ---
 # **31 Paralelogram**
@@ -466,11 +467,11 @@
 * Pravokotnik s stranicama v in 2r
 ![valj_presek](/attach/valj_presek.png)
 ## Formuli za izračun površine in prostornine pokončnega valja
-* $S_{povrsina}=2S_o+S_{pl}=2\pi*r^2+2\pi*r*v$
-* $V=S_o*v=\pi*r^2*v$
+* $S_{povrsina}=2S_o+S_{pl}=2\pi * r^2+2\pi * r * v$
+* $V=S_o * v=\pi * r^2 * v$
 ## Izrazi prostornino enakostraničnega valja s polmerom Osnovne ploskve r
 * v = 2r
-* $V=\pi*r^2*2r=2\pi*r^3$
+* $V=\pi * r^2 * 2r=2\pi * r^3$
 
 ---
 # **41 Piramida**
@@ -487,7 +488,7 @@
 ## Formula za izračun površine pravilne piramide
 * $S_{površina}=S_o+S_{pl}=S_o+\frac{n*a*v_1}{2}$
 ## Prostornina pravilne enakorobe piramide z robom a
-* $V=\frac{a^2*a*\sqrt{2}}{6}=\frac{a^3*\sqrt{2}}{6}$
+* $V=\frac{a^2 * a * \sqrt{2}}{6}=\frac{a^3 * \sqrt{2}}{6}$
 * $S_o=a^2$
 * $V=\frac{S_o*v}{3}$
 * $v=\frac{a*\sqrt{2}}{2}$
@@ -506,9 +507,9 @@
 * Ali pa enakostranični trikotnik v primeru enakostraničnega stožca
 ![stozec_presek_os](/attach/stozec_presek_os.png)
 ## Formula za izračun površine stožca
-* $S_{povrsina}=S_o+S_{pl}=\pi*r^2+\pi*r*s$
+* $S_{povrsina}=S_o+S_{pl}=\pi * r^2+\pi * r * s$
 ## Prostornina enakostraničnega stožca z polmerom r
-* $V=\frac{S_o*v}{3}=\frac{\pi*r^3*sqrt{3}}{3}$
+* $V=\frac{S_o * v}{3}=\frac{\pi * r^3 * sqrt{3}}{3}$
 * $v=r\sqrt{3}$
 
 ---
@@ -552,19 +553,19 @@
 ## Izračun skalarnega produkta dveh vektorjev
 * $\vec{a} * \vec{b} = |\vec{a}||\vec{b}|cos(\varphi)$
 ## Tri lastnosti skalarnega produkta
-* Komutativnost - &nbsp; $\vec{a}*\vec{b}=\vec{b}*\vec{a}$
-* Homogenost - &nbsp; $(k*\vec{a})*\vec{b} = k*(\vec{a}*\vec{b})$
+* Komutativnost - &nbsp; $\vec{a} * \vec{b}=\vec{b} * \vec{a}$
+* Homogenost - &nbsp; $(k * \vec{a}) * \vec{b} = k * (\vec{a} * \vec{b})$
 * Skalarni produkt vektorja s samim seboj je nenegativno realno število - &nbsp; $\vec{a}*\vec{a}\geq0$
 ## Kako s skalarnim produktom ugotovimo pravokotnost dveh vektorjev
 * Vektorja sta pravokotna ko je skalarni produkt enak 0
 + $\vec{a}=(2,3)$
 + $\vec{b}=(3,-2)$
-+ $\vec{a}*\vec{b}=(2*3+3*(-2))=0$
++ $\vec{a} * \vec{b}=(2 * 3+3 * (-2))=0$
 ---
 # **47 Skalarni produkt v standardni ortonormirani bazi**
 ## Skalarni produkt dveh vektorjev v orto. bazi
 * Vsota produktov istoležnih komponent $\vec{a}$ in $\vec{b}$
-* $\vec{a}*\vec{b}= a_1*b_1+a_2*b_2+a_3*b_3$
+* $\vec{a} * \vec{b}= a_1 * b_1+a_2 * b_2+a_3 * b_3$
 ## Izračun dolžine vektorja v orto. bazi, utemelji
 * Kvadratni koren vsote kvadratov komponent vektorja je dolžina vektorja
 * $\large |\vec{a}|=\sqrt{a^2_1+a^2_2+a^2_3}$
@@ -838,7 +839,7 @@
 * $x_0$ lihe stopnje - funkcija spremeni predznak
 * $x_0$ sode stopnje - funkcija ohrani predznak
 
-## Obnašanje funkcije ma intervalih $(-\infin,a)$ in $(b,\infin)$, navedi vse možnosti
+## Obnašanje funkcije na intervalih $(-\infin,a)$ in $(b,\infin)$, navedi vse možnosti
 * Na intervalu $(-\infin,a) nima ničel in polov - fnc je zvezna in stalnega predznaka
 * Na intervalu $(b,\infin) nima ničel in polov - fnc je zvezna in stalnega predznaka
 * Predznak spremeni le v polu ali ničli lihe stopnje
@@ -947,7 +948,7 @@
 * $d(T,0)=\sqrt{(x-0)^2+(y-0)^2}$
 * $r^2 = x^2 + y^2$
 ## Enačba krožnice s središčem v točki $S(p,q)$
-* r^2 = (x-p)^2 + (y-q)^2
+* $r^2 = (x-p)^2 + (y-q)^2$
 ## Katere množice točk v ravnini lahko predstavlja enačba $Ax^2+Ay^2+Dx+Ey+F=0$
 ![kroznica_mnozice](/attach/kroznica_mnozice.png)
 ---
@@ -971,9 +972,9 @@
 * Zaporedje - funkcija, ki vsakemu naravnemu številu $n$ priredi vrednost $a_n$
 * Graf zaporedja - množica točk $(n,f(n))$
 ## Kdaj je zaporedje naraščajoče
-* Kadar $a_{n+1} \geq a_n ali strogo narašča kadar a_{n+1}>a_n
+* Kadar $a_{n+1} \geq a_n$ ali strogo narašča kadar $a_{n+1}>a_n$
 ## Primer padajočega zaporedja
-* Kadar $a_{n+1} \leq a_n ali strogo pada kadar a_{n+1}<a_n
+* Kadar $a_{n+1} \leq a_n$ ali strogo pada kadar $a_{n+1}<a_n$
 ## Kdaj je zaporedje omejeno
 * Kadar velja $m \leq a \leq M$
 ## Primer zaporedja, ki je navzgor omejeno, dol pa neomejeno
@@ -1083,7 +1084,7 @@
 ## Osnovni izrek kombinatorike
 * Proces izbiranja poteka v k zaporednih fazah
 * V prvi fazi je $n_1$ možnih izborov, v faki k je $n_k$ možnih izborov
-* Če je število izborov v posamezni fazi neodvisno od predhodnih odločitev je mogoče izbor opraviti na $n=n_1+n_2*...*n_k načinov$
+* Če je število izborov v posamezni fazi neodvisno od predhodnih odločitev je mogoče izbor opraviti na $n=n_1+n_2*...*n_k$ načinov
 ## Uporabo osnovnega izreka predstavi na primeru
 * Luka hoče v mestu obiskati štiri galerije, tri muzeje in dva grada.
 * Na koliko načinov si lahko ogleda vse znamenitosti po enkrat?
@@ -1109,10 +1110,10 @@
 + $P_5 = 5! = 120$
 ## Permutacije s ponavljanjem, koliko
 * Permutacije s ponavljanjem - kadar so v vrsti nerazlični elementi
-* Število permutacij s ponavljnajem $P_n^{r_1,r_2,r_3...}=\frac{n!}{r_1!*r_2!...r_k!}$
+* Število permutacij s ponavljnajem $\large P_n^{r_1,r_2,r_3...}=\frac{n!}{r_1!*r_2!...r_k!}$
 ## Primer permutacije s ponavljanjem
 * Koliko besed dolžine 10 črk lahko sestavimo iz črk besede MATEMATIKA?
-* $P_10^{2,3,2}=\frac{10!}{2!*2!*3!}=151200$
+* $\large P_10^{2,3,2}=\frac{10!}{2!*2!*3!}=151200$
 
 ---
 # **96 Variacije**
@@ -1151,8 +1152,7 @@
 ---
 # **98 Binomski izrek**
 ## Binomski izrek, razčleni $(a+b)^4$
-*
-* $(a+b)4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$
+* $(a+b)^4 = a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$
 ## Koliko podmnožic ima množica z n elementi
 * Število vseh množic je enako $2^n$
 ## Povezava med binomskim izrekom in Pascalovim trikotnikom
